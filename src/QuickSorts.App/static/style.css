@@ -1,0 +1,49 @@
+.header {
+  padding: 60px;
+  text-align: center;
+  background: #0494aa;
+  color: white;
+  font-size: 30px;
+}
+
+.button {
+  background-color: #04AA6D;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 15px;
+  cursor: default;
+}
+
+.button:hover {
+  background-color: #05c37d;
+  cursor: pointer;
+}
+
+.button:active {
+  background-color: #03915d;
+
+  outline: none;
+  /* Remove default outline */
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  /* Add a shadow */
+}
+
+
+
+img {
+  border: 1px solid #3d025f;
+  border-radius: 4px;
+  padding: 5px;
+  width: 100%;
+  max-width: 900px;
+  max-height: 900px;
+}
+
+img:hover {
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
